@@ -42,8 +42,8 @@ class ComponentSwitch extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({currentComponent: this.components.rgz3})
-    this.setState({selected: 13})
+    this.setState({currentComponent: this.components.lab1})
+    this.setState({selected: 1})
   }
 
   setComponent = (e) => {
